@@ -1,24 +1,27 @@
-# Bubble Sort Visualizer
+# Automatic Number Plate Detection using OpenCV
 
-## Overview
+This project is a simple implementation of Automatic Number Plate Detection using Python and OpenCV. It uses a Haar Cascade Classifier (`haarcascade_russian_plate_number.xml`) to detect license plates from live video feed or images and highlights them in real time.
 
-This is a simple C++ program for visualizing the Bubble Sort algorithm using graphics. The program sorts a randomly shuffled array of integers and displays the sorting process graphically using the BGI (Borland Graphics Interface) library.
+## 🔧 Features
 
-## Features
+- Real-time number plate detection using webcam
+- Haar cascade-based object detection
+- Visual highlighting of detected license plates
+- Simple and easy-to-understand codebase
 
-- Visualizes the Bubble Sort algorithm in action.
-- Generates a random array of integers to be sorted.
-- Displays the sorting process graphically in real-time.
+## 📂 Files
 
-## Requirements
+- `number_plate.py` — Main script for video capture and number plate detection.
+- `haarcascade_russian_plate_number.xml` — Pre-trained Haar Cascade classifier for Russian-style number plates.
 
-- C++ compiler supporting C++11 or later.
-- BGI (Borland Graphics Interface) library for graphics support.
-- Unix-like system for usleep function (for delay).
+## ▶️ How to Run
 
-## Screenshots
+### Prerequisites
 
-![1](https://github.com/shhivaansh/Visualization-of-Bubble-Sort/assets/166250589/0ee1391f-e0d0-475d-8caf-190604535cf3)
+- Python 3.x
+- OpenCV
 
+Install dependencies using pip:
 
-![2](https://github.com/shhivaansh/Visualization-of-Bubble-Sort/assets/166250589/39e71359-244b-4f02-988f-ef25797e258d)
+```bash
+pip install opencv-python
